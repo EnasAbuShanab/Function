@@ -34,3 +34,11 @@ def someFunction():
   a=a+5
 someFunction()
 print(a)
+
+print("\n")
+
+se={"saif":100, "Muh":200}
+def updateseByRef(se):
+  newse={"nour":100,"toqa":220}
+  se.update(newse)
+print("inside the function update by reference",se)
