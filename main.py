@@ -28,3 +28,9 @@ print(x)
 
 print("\n")
 
+a=10
+def someFunction():
+
+  a=a+5
+someFunction()
+print(a)
