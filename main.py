@@ -30,7 +30,7 @@ print("\n")
 
 a=10
 def someFunction():
-
+  global a
   a=a+5
 someFunction()
 print(a)
