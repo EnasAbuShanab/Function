@@ -17,7 +17,7 @@ def add(x,y=5):
   """return x plus y, optional """
   return x + y
 add(3,10)
-
+print(add(3,10),"\n")
 print("\n")
 
 def addtwo(a,b):
@@ -41,4 +41,5 @@ se={"saif":100, "Muh":200}
 def updateseByRef(se):
   newse={"nour":100,"toqa":220}
   se.update(newse)
+updateseByRef(se)
 print("inside the function update by reference",se)
