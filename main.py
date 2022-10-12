@@ -41,5 +41,16 @@ se={"saif":100, "Muh":200}
 def updateseByRef(se):
   newse={"nour":100,"toqa":220}
   se.update(newse)
+  print(se,"\n")
+updateseByRef(se)
+print("inside the function update by reference",se)
+
+print("\n")
+
+se={"saif":100, "Muh":200}
+def updateseByVal(se):
+  se={"nour":100,"toqa":220}
+  se.update(se)
+  print(se,"\n")
 updateseByRef(se)
 print("inside the function update by reference",se)
