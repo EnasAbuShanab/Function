@@ -52,5 +52,5 @@ def updateseByVal(se):
   se={"nour":100,"toqa":220}
   se.update(se)
   print(se,"\n")
-updateseByRef(se)
+updateseByVal(se)
 print("inside the function update by reference",se)
