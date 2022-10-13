@@ -1,3 +1,6 @@
+import turtle
+
+
 def sayHello():
   print("Hello")
   x=5
@@ -88,4 +91,22 @@ print(emp1.salary)
 
   #def displayCount (self):
     #print ()
-    
+
+print("\n")
+
+#Draw Square program
+def drawSequare():
+  window= turtle.screen()
+  window.bgcolor("gray")
+  p=turtle.Turtle()
+  p.shape("turtle")
+  p.color("pink")
+  p.forword(100)
+  p.right(90)
+  p.forword(100)
+  p.right(90)
+  p.forword(100)
+  p.right(90)
+  p.forword(100)
+  p.right(90)
+  window.exitonclick
