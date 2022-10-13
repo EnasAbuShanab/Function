@@ -94,6 +94,7 @@ print(emp1.salary)
 
 print("\n")
 
+#Draw Square program
 def drawSequare():
   window= turtle.screen()
   window.bgcolor("gray")
